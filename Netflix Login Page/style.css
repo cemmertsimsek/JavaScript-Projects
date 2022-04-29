@@ -1,0 +1,110 @@
+body {
+    background-image: url(./background_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.multiple1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-right: auto;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+}
+
+.multiple2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+.all {
+    width: 350px;
+    margin: auto auto 1rem auto;
+    /* border: 1px solid red; */
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: rgba(0,0,0,0.8);
+
+
+}
+.header {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.section {
+    width: auto;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: 1.25rem 2rem;
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+    top: -10px;
+}
+.netflix {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.name-section {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+.name-section input, select {
+    height: 40px;
+    color: black;
+}
+
+option {
+    color: black;
+}
+::placeholder {
+    color: black;
+}
+
+.submit {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 0.5rem auto 1px auto;
+    /* border: 1px solid white; */
+}
+
+textarea {
+    resize: none;
+    height: 60px;
+    color: black;
+}
+
+.content {
+    height: 30px;
+}

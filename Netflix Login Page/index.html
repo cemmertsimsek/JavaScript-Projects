@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link
+      rel="icon"
+      type="image/netflix-icon"
+      href="./1b54efef3720f6ac39647fc420d4a6f9.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="header">
+        <img class="netflix" src="./img.png" alt="netflix" />
+        <p>
+          <i>
+            Thank you for signing up at Netflix. Tell us more about yourself.</i
+          >
+        </p>
+      </div>
+      <div class="all">
+        <form action="www.clarusway.com">
+          <div class="name-section">
+            <label for="">Name</label>
+            <input
+              type="text"
+              name="name"
+              required
+              placeholder="enter your name"
+            />
+            <label for="">Age</label>
+            <input type="number" name="age" required placeholder="age" />
+            <label for="">Email</label>
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="enter your Email"
+            />
+            <label for="">Content type</label>
+            <select class="content" name="content" id="content">
+              <option value="series">Series</option>
+              <option value="documentaries">Documentaries</option>
+              <option value="movies">Movies</option>
+              <option value="animations">Animations</option>
+            </select>
+          </div>
+
+          <div class="multiple1">
+            <label for="">Movie type</label>
+            <div>
+              <div>
+                <input type="checkbox" name="comedy" id="" checked />
+                <label for="comedy">Comedy</label>
+              </div>
+              <div>
+                <input type="checkbox" name="action" id="" />
+                <label for="action">Action</label>
+              </div>
+              <div>
+                <input type="checkbox" name="romance" id="" />
+                <label for="romance">Romance</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="multiple2">
+            <label for="">Gender</label>
+            <div>
+              <input type="radio" name="gender" id="male" checked />
+              <label for="male">Male</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="female" />
+              <label for="female">Female</label>
+            </div>
+            <div>
+              <input type="radio" name="gender" id="other" />
+              <label for="other">Other</label>
+            </div>
+          </div>
+          <label for="feedback">Feedback</label>
+          <textarea
+            name="comment"
+            id="feedback"
+            cols="30"
+            rows="10"
+            placeholder="Any Comment"
+          ></textarea>
+
+          <input class="submit" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
