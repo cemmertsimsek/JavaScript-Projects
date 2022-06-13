@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Lora' , serif;
+    margin: 3rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem   ;
+}
+
+ul {
+    width: 95%;
+    list-style: none;
+}
+li {
+
+}
+
+div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 60%;
+    height: 2rem;
+    padding: 0 1rem;
+
+}
+
+button {
+    width: 30%;
+
+    
+}
