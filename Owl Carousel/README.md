@@ -16,4 +16,4 @@ Owl Slider is a sample slideshow developed using JavaScript. This project was cr
 3- Add HTML buttons with the IDs "next" and "prev" for the next and previous buttons, respectively.
 4- Include the necessary JavaScript code in your JavaScript file to enable Owl Slider.
 
-![https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FlOGNlZTcxNjkwYmUzNjI3N2U4OTE4Njk5M2I2ZTY4ZThhODQ4MyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/gWHNvlIqHryNxR61aU/giphy.gif]
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FlOGNlZTcxNjkwYmUzNjI3N2U4OTE4Njk5M2I2ZTY4ZThhODQ4MyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/gWHNvlIqHryNxR61aU/giphy.gif)
