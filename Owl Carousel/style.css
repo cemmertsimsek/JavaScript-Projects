@@ -45,3 +45,9 @@ body {
   left: unset;
   right: 50px;
 }
+
+.copyright {
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+}
