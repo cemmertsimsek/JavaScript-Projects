@@ -21,7 +21,7 @@ a {
   text-align: center;
   border: 2px solid #fff;
   border-radius: 30px;
-  padding: 50px 30px;
+  padding: 50px 30px 20px;
   box-shadow: 0 50px 150px #5553;
 }
 .login .title {
@@ -119,4 +119,8 @@ a {
 }
 .login .register {
   font-size: small;
+}
+.copyright {
+  font-size: small;
+  margin-top: 20px;
 }
